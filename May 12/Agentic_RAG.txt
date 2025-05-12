@@ -1,0 +1,12 @@
+	Agentic RAG is the use of AI agents to facilitate retrieval augmented generation (RAG). Agentic RAG systems add AI agents to the RAG pipeline to increase adaptability and accuracy. Compared to traditional RAG systems, agentic RAG allows large language models (LLMs) to conduct information retrieval from multiple sources and handle more complex workflows. In theory, AI agents are LLMs with three significant characteristics: 
+-They have memory, both short and long term, which enables them to plan and execute complex tasks. 
+-They are capable of query routing, step-by-step planning and decision-making.
+-They can perform tool calling through APIs. 
+
+	Agentic RAG works by incorporating one or more types of AI agents into RAG systems. For example, an agentic RAG system might combine multiple information retrieval agents, each specialized in a certain domain or type of data source. One agent queries external databases while another can comb through emails and web results. Agentic AI frameworks, such as LangChain and LlamaIndex, and the orchestration framework LangGraph can be found on GitHub. With them, it is possible to experiment with agentic architectures for RAG at minimal costs. 
+Agentic RAG systems can contain one or more types of AI agents, such as:
+-Routing agents
+-Query planning agents
+-ReAct agents
+-Plan-and-execute agents
+Agentic RAG applications include Real-time question-answering, Automated support, Data management etc.

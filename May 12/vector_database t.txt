@@ -1,0 +1,10 @@
+	A vector database is any database that can natively store and manage vector embeddings and handle the unstructured data they describe, such as documents, images, video, or audio. They are organizations store vectors for retrieval and analysis. An enterprise-class vector database delivers useful features beyond nearest neighbor search, such as metadata storage, data versioning, and integration with other systems. Instead of taking on the cost and effort to fine-tune generative AI models, companies are curating the data that LLMs use to generate their outputs. They’re using vector databases that contain up-to-date enterprise information. This architectural approach, called retrieval-augmented generation, lets an LLM that was trained on vast amounts of generalized data enhance its response by using private data found in a vector database.
+	Vector databases work by storing and processing data as vectors, which are mathematical representations of features of objects in multidimensional space. This allows complex data types, such as images, audio, video, and sensor data, to be stored and queried efficiently, making vectors ideal for use cases like recommendation systems, natural language processing, and image recognition. Operations happen in several steps: Vectorization, Indexing, Querying, etc. 
+
+3 types of Vector Databases are :
+(1) Columnar databases :A columnar database stores data in columns and groups them on a disk. This arrangement speeds up data analytics because the analysis usually involves filtering and combining data from table columns.
+
+(2) Document stores : A document store database, or document-oriented database, is a program and data storage system that manages, retrieves, and stores document-oriented information.
+
+(3) Graph databases : Graph analytics is the process of analyzing data in a graph format, using data points as nodes and relationships as edges.
+There are other vector databases like In-memory databases, Key-value stores, Spatial databases etc.
