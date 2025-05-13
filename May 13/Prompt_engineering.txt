@@ -1,0 +1,13 @@
+	Prompt engineering is the process of iterating a generative AI prompt to improve its accuracy and effectiveness. It is a technical term for a straightforward action, it means prompting a generative AI tool to perform a task. Strong prompt engineering typically requires refining your prompts with context to get the most specific and useful result. Prompt engineering techniques help tune LLMs for specific use cases, ranging from text-based output to graphic design to cybersecurity. However, prompt engineering for various existing generative AI tools is its most widespread use, because there are far more users of existing tools than developers working on new ones.
+	Prompt engineering jobs have increased significantly since the launch of generative AI. Prompt engineers bridge the gap between your end users and the large language model. They identify scripts and templates that your users can customize and complete to get the best result from the language models. These engineers experiment with different types of inputs to build a prompt library that application developers can reuse in different scenarios. They make AI applications more efficient and effective. Application developers typically encapsulate open-ended user input inside a prompt before passing it to the AI model.
+Prompt engineering examples :
+-For text models like ChatGPT:
+     * What’s the difference between a professional summary and an executive summary?
+     * Write a professional summary for a marketing analyst looking for a marketing manager job.
+     * Now trim it down to less than 60 words.
+     * Rewrite it with a less formal tone.
+-For image models :
+     * A painting of a cat.
+     * A painting of a cat chasing a mouse in Impressionist style.
+     * Now use only warm tones in the painting.
+
