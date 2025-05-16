@@ -1,12 +1,13 @@
 
-
+import os
+from dotenv import load_dotenv
 import autogen
 
 
 config_list = [ 
   {
         "model": "openai/gpt-3.5-turbo",  # or try "mistralai/mixtral-8x7b"
-        "api_key": "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",
+        "api_key": os.getenv("OPENROUTER_API_KEY"),
         "base_url": "https://openrouter.ai/api/v1",  }
 ]
 
