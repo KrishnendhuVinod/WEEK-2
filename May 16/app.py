@@ -3,19 +3,26 @@ import os
 from dotenv import load_dotenv
 import autogen
 
+load_dotenv()
+
+
+
+
 
 config_list = [ 
   {
-        "model": "openai/gpt-3.5-turbo",  # or try "mistralai/mixtral-8x7b"
-        "api_key": os.getenv("OPENROUTER_API_KEY"),
-        "base_url": "https://openrouter.ai/api/v1",  }
+       "model": "gemini-1.5-flash",
+        "api_key": os.getenv("GEMINI_API_KEY"),
+         "api_type": "google",
+  }
 ]
 
 llm_config={
     
     "seed":42,
     "config_list":config_list,
-    "temperature":0
+    "temperature":0,
+    
 }
 
 
