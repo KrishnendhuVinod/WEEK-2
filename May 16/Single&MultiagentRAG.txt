@@ -1,0 +1,21 @@
+Single-agent RAG Systems
+
+- This system uses one AI agent to handle the entire process of retrieving and augmenting information for a query.
+- In its simplest form, agentic RAG is a router.
+- They interprets the user's question, selects the appropriate knowledge source, retrieves relevant data, and then uses that information to generate a response. 
+- This  systems integrate retrieval and generation within one autonomous agent.
+-  This agent fetches relevant documents or knowledge from external sources and uses that information to generate accurate, context-aware responses or content. 
+- The external knowledge sources don't have to be limited to (vector) databases.
+- The system operates independently, focusing on a specific domain or task, making it efficient for use cases like knowledge-based question answering, document summarization, or conversational AI within a defined scope.
+
+Multi-agent RAG Systems
+
+- It involve multiple specialized retrieval-augmented agents working collaboratively. 
+- This multi-agent approach is advantageous for complex or large-scale tasks requiring diverse expertise, such as integrating information from varied domains, multi-lingual retrieval, or combining different styles of generation.
+- We can have one master agent who coordinates information retrieval among multiple specialized retrieval agents.
+- For instance, one agent could retrieve information from proprietary internal data sources. 
+- Another agent could specialize in retrieving information from your personal accounts, such as email or chat. 
+- Multi-agent RAG facilitates dynamic interaction between various data sources and large language models (LLMs), making it particularly useful in complex domains. 
+- By distributing the retrieval and generation workload, multi-agent RAG systems can achieve higher accuracy, scalability, and robustness compared to single-agent setups.
+
+
