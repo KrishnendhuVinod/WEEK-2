@@ -31,7 +31,7 @@ researcher = AssistantAgent(
 
 user_proxy = UserProxyAgent(
     name="User",
-    human_input_mode="NEVER",  # Auto reply instead of manual input
+    human_input_mode="NEVER",  
     code_execution_config=False,
 )
 
