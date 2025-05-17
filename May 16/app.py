@@ -6,22 +6,19 @@ import autogen
 load_dotenv()
 
 
-
-
-
-config_list = [ 
-  {
-       "model": "gemini-1.5-flash",
+config_list = [
+    {
+        "model": "gemini-1.5-flash",  
         "api_key": os.getenv("GEMINI_API_KEY"),
-         "api_type": "google",
-  }
+        "api_type": "google", 
+    }
 ]
 
 llm_config={
     
-    "seed":42,
-    "config_list":config_list,
-    "temperature":0,
+    "seed": 42,
+    "config_list": config_list,
+    "temperature": 0,
     
 }
 
